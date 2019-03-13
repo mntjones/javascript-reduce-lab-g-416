@@ -17,4 +17,6 @@ const monologueLines = [
   'I am the one who knocks!'
 ];
 
-const wordCountMap = 
+const totalBatteries = batteryBatches.reduce();
+
+const wordCountMap = monologueLines.reduce()
