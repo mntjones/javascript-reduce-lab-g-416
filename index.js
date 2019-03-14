@@ -27,5 +27,6 @@ const wordCountMap = monologueLines.reduce(function(mono, line) {
   }
   
   mono[wordNum]++;
-  return mono; }, 
-  {});
+  return Object.assign({}, mono); 
+  
+});
